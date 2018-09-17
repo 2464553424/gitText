@@ -15,6 +15,7 @@
     self = [super init];
     if (self) {
         NSLog(@"张三写代码");
+        NSLog(@"写好了");
     }
     return self;
 }
