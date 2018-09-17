@@ -16,6 +16,7 @@
     if (self) {
         NSLog(@"张三写代码");
         NSLog(@"写好了");
+        NSLog(@"经理看到了");
     }
     return self;
 }
