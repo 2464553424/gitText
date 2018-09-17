@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1270441214F84AB008AC793 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270440214F84AB008AC793 /* AppDelegate.m */; };
+		F1270444214F84AB008AC793 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270443214F84AB008AC793 /* ViewController.m */; };
+		F1270447214F84AB008AC793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1270445214F84AB008AC793 /* Main.storyboard */; };
+		F1270449214F84AC008AC793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1270448214F84AC008AC793 /* Assets.xcassets */; };
+		F127044C214F84AC008AC793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F127044A214F84AC008AC793 /* LaunchScreen.storyboard */; };
+		F127044F214F84AC008AC793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F127044E214F84AC008AC793 /* main.m */; };
+		F1270459214F84AC008AC793 /* gitthubTexteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270458214F84AC008AC793 /* gitthubTexteTests.m */; };
+		F1270464214F84AC008AC793 /* gitthubTexteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270463214F84AC008AC793 /* gitthubTexteUITests.m */; };
+		F1270474214F84DB008AC793 /* asd.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270473214F84DB008AC793 /* asd.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1270455214F84AC008AC793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1270434214F84AB008AC793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F127043B214F84AB008AC793;
+			remoteInfo = gitthubTexte;
+		};
+		F1270460214F84AC008AC793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1270434214F84AB008AC793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F127043B214F84AB008AC793;
+			remoteInfo = gitthubTexte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F127043C214F84AB008AC793 /* gitthubTexte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitthubTexte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F127043F214F84AB008AC793 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1270440214F84AB008AC793 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1270442214F84AB008AC793 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1270443214F84AB008AC793 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1270446214F84AB008AC793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1270448214F84AC008AC793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F127044B214F84AC008AC793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F127044D214F84AC008AC793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F127044E214F84AC008AC793 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1270454214F84AC008AC793 /* gitthubTexteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitthubTexteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1270458214F84AC008AC793 /* gitthubTexteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitthubTexteTests.m; sourceTree = "<group>"; };
+		F127045A214F84AC008AC793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F127045F214F84AC008AC793 /* gitthubTexteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitthubTexteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1270463214F84AC008AC793 /* gitthubTexteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitthubTexteUITests.m; sourceTree = "<group>"; };
+		F1270465214F84AC008AC793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1270472214F84DB008AC793 /* asd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asd.h; sourceTree = "<group>"; };
+		F1270473214F84DB008AC793 /* asd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asd.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1270439214F84AB008AC793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1270451214F84AC008AC793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F127045C214F84AC008AC793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1270433214F84AB008AC793 = {
+			isa = PBXGroup;
+			children = (
+				F127043E214F84AB008AC793 /* gitthubTexte */,
+				F1270457214F84AC008AC793 /* gitthubTexteTests */,
+				F1270462214F84AC008AC793 /* gitthubTexteUITests */,
+				F127043D214F84AB008AC793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F127043D214F84AB008AC793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F127043C214F84AB008AC793 /* gitthubTexte.app */,
+				F1270454214F84AC008AC793 /* gitthubTexteTests.xctest */,
+				F127045F214F84AC008AC793 /* gitthubTexteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F127043E214F84AB008AC793 /* gitthubTexte */ = {
+			isa = PBXGroup;
+			children = (
+				F1270471214F84D4008AC793 /* 飞 */,
+				F127043F214F84AB008AC793 /* AppDelegate.h */,
+				F1270440214F84AB008AC793 /* AppDelegate.m */,
+				F1270442214F84AB008AC793 /* ViewController.h */,
+				F1270443214F84AB008AC793 /* ViewController.m */,
+				F1270445214F84AB008AC793 /* Main.storyboard */,
+				F1270448214F84AC008AC793 /* Assets.xcassets */,
+				F127044A214F84AC008AC793 /* LaunchScreen.storyboard */,
+				F127044D214F84AC008AC793 /* Info.plist */,
+				F127044E214F84AC008AC793 /* main.m */,
+			);
+			path = gitthubTexte;
+			sourceTree = "<group>";
+		};
+		F1270457214F84AC008AC793 /* gitthubTexteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1270458214F84AC008AC793 /* gitthubTexteTests.m */,
+				F127045A214F84AC008AC793 /* Info.plist */,
+			);
+			path = gitthubTexteTests;
+			sourceTree = "<group>";
+		};
+		F1270462214F84AC008AC793 /* gitthubTexteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1270463214F84AC008AC793 /* gitthubTexteUITests.m */,
+				F1270465214F84AC008AC793 /* Info.plist */,
+			);
+			path = gitthubTexteUITests;
+			sourceTree = "<group>";
+		};
+		F1270471214F84D4008AC793 /* 飞 */ = {
+			isa = PBXGroup;
+			children = (
+				F1270472214F84DB008AC793 /* asd.h */,
+				F1270473214F84DB008AC793 /* asd.m */,
+			);
+			path = "飞";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F127043B214F84AB008AC793 /* gitthubTexte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1270468214F84AC008AC793 /* Build configuration list for PBXNativeTarget "gitthubTexte" */;
+			buildPhases = (
+				F1270438214F84AB008AC793 /* Sources */,
+				F1270439214F84AB008AC793 /* Frameworks */,
+				F127043A214F84AB008AC793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gitthubTexte;
+			productName = gitthubTexte;
+			productReference = F127043C214F84AB008AC793 /* gitthubTexte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1270453214F84AC008AC793 /* gitthubTexteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F127046B214F84AC008AC793 /* Build configuration list for PBXNativeTarget "gitthubTexteTests" */;
+			buildPhases = (
+				F1270450214F84AC008AC793 /* Sources */,
+				F1270451214F84AC008AC793 /* Frameworks */,
+				F1270452214F84AC008AC793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1270456214F84AC008AC793 /* PBXTargetDependency */,
+			);
+			name = gitthubTexteTests;
+			productName = gitthubTexteTests;
+			productReference = F1270454214F84AC008AC793 /* gitthubTexteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F127045E214F84AC008AC793 /* gitthubTexteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F127046E214F84AC008AC793 /* Build configuration list for PBXNativeTarget "gitthubTexteUITests" */;
+			buildPhases = (
+				F127045B214F84AC008AC793 /* Sources */,
+				F127045C214F84AC008AC793 /* Frameworks */,
+				F127045D214F84AC008AC793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1270461214F84AC008AC793 /* PBXTargetDependency */,
+			);
+			name = gitthubTexteUITests;
+			productName = gitthubTexteUITests;
+			productReference = F127045F214F84AC008AC793 /* gitthubTexteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1270434214F84AB008AC793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "上海易迪爱网络工程有限公司";
+				TargetAttributes = {
+					F127043B214F84AB008AC793 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F1270453214F84AC008AC793 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F127043B214F84AB008AC793;
+					};
+					F127045E214F84AC008AC793 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F127043B214F84AB008AC793;
+					};
+				};
+			};
+			buildConfigurationList = F1270437214F84AB008AC793 /* Build configuration list for PBXProject "gitthubTexte" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1270433214F84AB008AC793;
+			productRefGroup = F127043D214F84AB008AC793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F127043B214F84AB008AC793 /* gitthubTexte */,
+				F1270453214F84AC008AC793 /* gitthubTexteTests */,
+				F127045E214F84AC008AC793 /* gitthubTexteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F127043A214F84AB008AC793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F127044C214F84AC008AC793 /* LaunchScreen.storyboard in Resources */,
+				F1270449214F84AC008AC793 /* Assets.xcassets in Resources */,
+				F1270447214F84AB008AC793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1270452214F84AC008AC793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F127045D214F84AC008AC793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1270438214F84AB008AC793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1270474214F84DB008AC793 /* asd.m in Sources */,
+				F1270444214F84AB008AC793 /* ViewController.m in Sources */,
+				F127044F214F84AC008AC793 /* main.m in Sources */,
+				F1270441214F84AB008AC793 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1270450214F84AC008AC793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1270459214F84AC008AC793 /* gitthubTexteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F127045B214F84AC008AC793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1270464214F84AC008AC793 /* gitthubTexteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1270456214F84AC008AC793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F127043B214F84AB008AC793 /* gitthubTexte */;
+			targetProxy = F1270455214F84AC008AC793 /* PBXContainerItemProxy */;
+		};
+		F1270461214F84AC008AC793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F127043B214F84AB008AC793 /* gitthubTexte */;
+			targetProxy = F1270460214F84AC008AC793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1270445214F84AB008AC793 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1270446214F84AB008AC793 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F127044A214F84AC008AC793 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F127044B214F84AC008AC793 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1270466214F84AC008AC793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1270467214F84AC008AC793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1270469214F84AC008AC793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHDN68AB54;
+				INFOPLIST_FILE = gitthubTexte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYDA.gitthubTexte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F127046A214F84AC008AC793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHDN68AB54;
+				INFOPLIST_FILE = gitthubTexte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYDA.gitthubTexte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F127046C214F84AC008AC793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHDN68AB54;
+				INFOPLIST_FILE = gitthubTexteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYDA.gitthubTexteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitthubTexte.app/gitthubTexte";
+			};
+			name = Debug;
+		};
+		F127046D214F84AC008AC793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHDN68AB54;
+				INFOPLIST_FILE = gitthubTexteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYDA.gitthubTexteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitthubTexte.app/gitthubTexte";
+			};
+			name = Release;
+		};
+		F127046F214F84AC008AC793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHDN68AB54;
+				INFOPLIST_FILE = gitthubTexteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYDA.gitthubTexteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gitthubTexte;
+			};
+			name = Debug;
+		};
+		F1270470214F84AC008AC793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHDN68AB54;
+				INFOPLIST_FILE = gitthubTexteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYDA.gitthubTexteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gitthubTexte;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1270437214F84AB008AC793 /* Build configuration list for PBXProject "gitthubTexte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1270466214F84AC008AC793 /* Debug */,
+				F1270467214F84AC008AC793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1270468214F84AC008AC793 /* Build configuration list for PBXNativeTarget "gitthubTexte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1270469214F84AC008AC793 /* Debug */,
+				F127046A214F84AC008AC793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F127046B214F84AC008AC793 /* Build configuration list for PBXNativeTarget "gitthubTexteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F127046C214F84AC008AC793 /* Debug */,
+				F127046D214F84AC008AC793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F127046E214F84AC008AC793 /* Build configuration list for PBXNativeTarget "gitthubTexteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F127046F214F84AC008AC793 /* Debug */,
+				F1270470214F84AC008AC793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1270434214F84AB008AC793 /* Project object */;
+}
