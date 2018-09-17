@@ -17,6 +17,8 @@
 		F1270464214F84AC008AC793 /* gitthubTexteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270463214F84AC008AC793 /* gitthubTexteUITests.m */; };
 		F1270474214F84DB008AC793 /* asd.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270473214F84DB008AC793 /* asd.m */; };
 		F1270478214F855B008AC793 /* sadasd.m in Sources */ = {isa = PBXBuildFile; fileRef = F1270477214F855B008AC793 /* sadasd.m */; };
+		F127047C214F85CE008AC793 /* asdasdasdasd.m in Sources */ = {isa = PBXBuildFile; fileRef = F127047B214F85CE008AC793 /* asdasdasdasd.m */; };
+		F1270480214F85E6008AC793 /* qwe.m in Sources */ = {isa = PBXBuildFile; fileRef = F127047F214F85E6008AC793 /* qwe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		F1270473214F84DB008AC793 /* asd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asd.m; sourceTree = "<group>"; };
 		F1270476214F855B008AC793 /* sadasd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sadasd.h; sourceTree = "<group>"; };
 		F1270477214F855B008AC793 /* sadasd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sadasd.m; sourceTree = "<group>"; };
+		F127047A214F85CE008AC793 /* asdasdasdasd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asdasdasdasd.h; sourceTree = "<group>"; };
+		F127047B214F85CE008AC793 /* asdasdasdasd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asdasdasdasd.m; sourceTree = "<group>"; };
+		F127047E214F85E6008AC793 /* qwe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qwe.h; sourceTree = "<group>"; };
+		F127047F214F85E6008AC793 /* qwe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qwe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		F127043E214F84AB008AC793 /* gitthubTexte */ = {
 			isa = PBXGroup;
 			children = (
+				F1270479214F85C7008AC793 /* 跑马拉松 */,
 				F1270475214F8554008AC793 /* zhangsan */,
 				F1270471214F84D4008AC793 /* 飞 */,
 				F127043F214F84AB008AC793 /* AppDelegate.h */,
@@ -156,6 +163,25 @@
 				F1270477214F855B008AC793 /* sadasd.m */,
 			);
 			path = zhangsan;
+			sourceTree = "<group>";
+		};
+		F1270479214F85C7008AC793 /* 跑马拉松 */ = {
+			isa = PBXGroup;
+			children = (
+				F127047D214F85DF008AC793 /* 跑一千米 */,
+				F127047A214F85CE008AC793 /* asdasdasdasd.h */,
+				F127047B214F85CE008AC793 /* asdasdasdasd.m */,
+			);
+			path = "跑马拉松";
+			sourceTree = "<group>";
+		};
+		F127047D214F85DF008AC793 /* 跑一千米 */ = {
+			isa = PBXGroup;
+			children = (
+				F127047E214F85E6008AC793 /* qwe.h */,
+				F127047F214F85E6008AC793 /* qwe.m */,
+			);
+			path = "跑一千米";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1270478214F855B008AC793 /* sadasd.m in Sources */,
+				F127047C214F85CE008AC793 /* asdasdasdasd.m in Sources */,
 				F1270474214F84DB008AC793 /* asd.m in Sources */,
+				F1270480214F85E6008AC793 /* qwe.m in Sources */,
 				F1270444214F84AB008AC793 /* ViewController.m in Sources */,
 				F127044F214F84AC008AC793 /* main.m in Sources */,
 				F1270441214F84AB008AC793 /* AppDelegate.m in Sources */,
